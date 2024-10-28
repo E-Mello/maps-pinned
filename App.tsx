@@ -1,4 +1,4 @@
-// Path: /src/App.tsx
+// Path: /App.tsx
 
 import React from "react";
 import MapScreen from "./screens/MapScreen";

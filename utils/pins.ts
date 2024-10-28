@@ -1,4 +1,4 @@
-// Path: /src/utils/pins.ts
+// Path: /utils/pins.ts
 
 export const PINS = [
   {

@@ -1,4 +1,4 @@
-// Path: /src/screens/MapScreen.styles.ts
+// Path: /screens/MapScreen.styles.ts
 
 import { StyleSheet } from "react-native";
 

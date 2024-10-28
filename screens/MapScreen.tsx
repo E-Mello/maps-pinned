@@ -1,4 +1,4 @@
-// Path: /src/screens/MapScreen.tsx
+// Path: /screens/MapScreen.tsx
 
 import React, { useState, useEffect } from "react";
 import { View, Modal, Text, TouchableOpacity } from "react-native";

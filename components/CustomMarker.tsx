@@ -1,4 +1,4 @@
-// Path: /src/components/CustomMarker.tsx
+// Path: /components/CustomMarker.tsx
 
 import React from "react";
 import { View, Image } from "react-native";
