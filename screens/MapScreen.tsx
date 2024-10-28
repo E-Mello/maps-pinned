@@ -7,6 +7,7 @@ import * as Location from "expo-location";
 import * as Linking from "expo-linking";
 import { PINS } from "../utils/pins";
 import { styles } from "./mapscreen.styles";
+import CustomMarker from "../components/CustomMarker";
 
 const MapScreen = () => {
   const [location, setLocation] = useState<Location.LocationObject | null>(
@@ -56,9 +57,11 @@ const MapScreen = () => {
             coordinate={pin.coordinates}
             title={pin.title}
             description={pin.description}
-            pinColor={pin.pinColor}
+            pinColor={pin.icon ? undefined : pin.pinColor} // Usa pinColor apenas se icon não estiver definido
             onPress={() => openModal(pin)}
-          />
+          >
+            {pin.icon && <CustomMarker icon={pin.icon} size={25} />}
+          </Marker>
         ))}
       </MapView>
 
