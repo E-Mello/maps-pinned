@@ -31,7 +31,6 @@ export const PINS = [
     hours: "🕒 Aberto 24 horas",
     mapLink:
       "https://www.google.com/maps/dir/?api=1&destination=-11.8618534924128,-55.481225547046456",
-    // Exemplo de um ícone SVG opcional para esse pin
-    icon: require("../assets/pin.png"), // Substitua por um caminho de SVG existente no seu projeto
+    icon: require("../assets/pin.png"), 
   },
 ];
